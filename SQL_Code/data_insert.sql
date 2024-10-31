@@ -59,3 +59,10 @@ INSERT INTO Attendance (Attendance_ID, Stu_ID, Course_ID, TO_Id, Date, Status) V
 ('A000049', 'TG00020', 'ICT1213', 'TO00001', '2024-10-09', 'Absent'),
 ('A000050', 'TG00020', 'ICT1213', 'TO00001', '2024-10-10', 'Present');
 
+-- Sample data insertion for Medical table
+INSERT INTO Medical (Attendance_ID, Date_Range, TO_Id, Reason) VALUES
+('A000049', '2024-10-01 to 2024-10-05', 'TO00001', 'Flu and fever, unable to attend classes'),
+('A000044', '2024-09-15 to 2024-09-20', 'TO00001', 'Minor surgery recovery'),
+('A000033', '2024-08-10 to 2024-08-14', 'TO00001', 'Severe allergy reaction'),
+('A000027', '2024-11-05 to 2024-11-07', 'TO00001', 'Hospitalized due to injury'),
+('A000006', '2024-10-12 to 2024-10-13', 'TO00001', 'Migraine headaches, bed rest advised');
